@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" href="#" />
+    <link rel="stylesheet" type="text/css" href="scc.css ">
+    <link rel="icon" type="image/x-icon" href="university_logo.default.png">
+    <title> PHINMA University  of Pangasinan</title>
+</head>
+
+<body>
+    <nav>
+       
+        <div class="logo">
+            <img src="upang logo.png" width="80px" />
+        </div>
+
+         <div class="title">
+           <b><h1>PHINMA</h1></b> 
+            <h4>University of Pangasinan</h4> 
+            <h6>Main Campus</h6>
+        </div>
+
+        <div class="burger-menu" onclick="toggleMenu()">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          
+          <div id="dropdown" class="dropdown-menu">
+            <ul>
+                <li><a class="link" href="Home.html">Home</a></li>
+                <li><a class="link" href="Discover.html">Explore</a></li>
+                <li><a class="link" href="About.html">About Us</a></li>
+                <li><a class="link" href="Contacts.html">Contacts</a></li>
+            </ul>
+       
+          </div>
+          
+          
+          <script>
+          function toggleMenu() {
+            var menu = document.querySelector('.burger-menu');
+            var dropdown = document.getElementById('dropdown');
+            menu.classList.toggle('active');
+            dropdown.style.display = dropdown.style.display === 'none' ? 'block' : 'none';
+          }
+          </script>
+
+
+    
+    </nav>
+   
+    <div class="video">
+        <video width="1300" height="auto" autoplay loop muted>
+            <source src="GIFbasta.mp4" video/mp4>
+        </video>
+        <div> 
+            <div class="button" id="myButton">
+            <a href="Discover.html">
+                <button class="Discover">
+                    Discover
+                </button>
+
+            </a>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>
+            #KasamaMoAngPHINMAED
+            #SasamahanKita
+        </p>
+    </div>
+    
+    <div class="Discover">
+            <div class="container">
+                <a><button class="Contacts">Contact Us</button></a>
+                <img src="pic.jpg" alt="Overlay Picture" class="overlay"> 
+                
+                <div class="text"
+                p>"Making Lives Better Through Education"</p>
+            </div>
+    
+              <div class="centered">
+                              
+                <p>With state-of-the-art facilities, dedicated team of educators, and a supportive learning environment, 
+                we ought to unlock our students’ skills and abilities. Through personalized attention, innovative 
+                teaching methods, and a focus on holistic development, we empower our students to excel academically 
+                and grow into confident and compassionate individuals ready to make a positive impact in society. 
+                Join us in this journey of nurturing potential and creating futures for the leaders of tomorrow. </p>
+            
+
+          </div>
+        </div>
+
+         </div>
+    
+</body>
+
+
+</html>
